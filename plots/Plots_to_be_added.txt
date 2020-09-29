@@ -1,0 +1,12 @@
+Histograms
+- dec
+- ra
+- kepmag
+- slogg
+
+Scatter plots
+- slogg vs srad
+- insol vs teq
+
+Bar plots
+- pdisposition
