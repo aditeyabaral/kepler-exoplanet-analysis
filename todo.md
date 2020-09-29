@@ -1,0 +1,23 @@
+- [ ] Data Cleaning
+    - [ ] Replace random values with median
+    - [ ] Beautify plots
+    - [ ] Code cleanup
+    - [ ] Code documentation
+
+- [ ] Visualisation
+    - [ ] Add plots to checklist
+    - [ ] Histograms
+        - [ ] dec
+        - [ ] ra
+        - [ ] kepmag
+        - [ ] slogg
+    - [ ] Scatter plots
+        - [ ] slogg vs srad
+        - [ ] insol vs teq
+    - [ ] Bar plots
+        - [ ] pdisposition
+        - [ ] disposition
+        - [ ] tce_delivname
+        - [ ] tce planet number
+        
+- [ ] Prediction
