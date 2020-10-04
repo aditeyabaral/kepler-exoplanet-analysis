@@ -1,23 +1,33 @@
 - [ ] Data Cleaning
-    - [ ] Replace random values with median
     - [ ] Beautify plots
     - [ ] Code cleanup
-    - [ ] Code documentation
+    - [ ] Code documentation (review)
+    - [ ] Look into TCE columns
+    - [ ] error - find the %error with column, replace with median % error [OPTIONAL]
 
 - [ ] Visualisation
-    - [ ] Add plots to checklist
     - [ ] Histograms
         - [ ] dec
         - [ ] ra
         - [ ] kepmag
         - [ ] slogg
+        - [ ] add few more
     - [ ] Scatter plots
         - [ ] slogg vs srad
         - [ ] insol vs teq
+        - [ ] add few more
     - [ ] Bar plots
         - [ ] pdisposition
         - [ ] disposition
         - [ ] tce_delivname
         - [ ] tce planet number
-        
+    - [ ] Distributions
+        - [ ] PCA -> 2D, plot
+        - [ ] SVD -> 2D, plot
+    - [ ] Label based
+        - [ ] subset of dataset [label == CONFIRMED], plot above graphs with subset
+        - [ ] density plot with subset which is confirmed
+    - [ ] q-q, p-p plots
+
 - [ ] Prediction
+    - [ ] 
