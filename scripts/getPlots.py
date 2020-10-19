@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 import shutil
 
-df = pd.read_csv("../data/kepler-data.csv")
+df = pd.read_csv("../data/[CLEANED]kepler-data.csv")
 
 columns = df.columns
 covered = []
