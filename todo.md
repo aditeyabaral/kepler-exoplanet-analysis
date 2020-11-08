@@ -1,32 +1,45 @@
+## MANDATORY
+
 - [ ] Data Cleaning
-    - [ ] Beautify plots [MANDATORY - PLOTS IN PAPER, OPTIONAL - REMAINING]
-    - [ ] Code cleanup [OPTIONAL]
-    - [ ] Review code documentation in notebooks [OPTIONAL]
-    - [ ] Look into TCE columns - how to assign these values? [OPTIONAL]
-    - [ ] error - find the %error with column, replace with median % error [OPTIONAL]
+    - [ ] Beautify plots for final paper
 
 - [ ] Visualisation
     - [ ] Label based
         - [ ] subset of dataset [label == CONFIRMED], plot above graphs with subset
         - [ ] density plot with subset which is confirmed
-    - [ ] q-q, p-p plots [OPTIONAL]
-    - [ ] 3D plots [OPTIONAL]
-    - [ ] PCA variance distribution
-    - [ ] Cute looking correlation plot
-    - [ ] count of planets discovered and method
-    - [ ] Comparisons with earth - https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html - make plots and show earth values?
+    - [ ] Correlation Matrix
+    - [ ] [Count of planets discovered and method](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
+    - [ ] [Comparisons with Earth](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
  
 - [ ] Prediction
-    - [ ] Cross Validation
-    - [ ] Hyperparameter Tuning
-    - [ ] Feature Selection [FOR LATER]
-    - [ ] Use PCA to check if columns are related - then use those columns
-    - [ ] RF (or other model) - get importance of features
+    - [ ] Neural Network
+    - [ ] Plot importance of features
+        - [ ] [Random Forest](https://stackoverflow.com/questions/44101458/random-forest-feature-importance-chart-using-python)
+        - [ ] [Adaboost](https://stackoverflow.com/questions/36665511/scikit-adaboost-feature-importance)
+        - [ ] [Direct library approach](https://www.scikit-yb.org/en/latest/api/model_selection/importances.html)
+        - [ ] Neural Network - [this](https://stackoverflow.com/questions/45361559/feature-importance-chart-in-neural-network-using-keras-in-python) or [this](https://stats.stackexchange.com/questions/261008/deep-learning-how-do-i-know-which-variables-are-important)
 
 - [ ] Further Analysis
     - [ ] Cluster CONFIRMED exoplanets, find similar groups
-    - [ ] Classify/Cluster CONFIRMED into type of planet - terrestrial, gas giant, super earth, neptune like, unknown
-    - [ ] Compare CONFIRMED exoplanets with planets in solar system, find closest matching planets (hassle looking for data - NO)
-    - [ ] Compare CONFIRMED exoplanets with actual habitable planets, compare values (hassle looking for data)
-    - [ ] Build model to predict if planet is habitable or not, test on CONFIRMED set - find number habitable [NO]
-    - [ ] subset df into CONFIRMED, plot previous plot and add markers for known planets/habitable planets [NO]
+        - [ ] Try to group into terrestrial, gas giant, super earth, neptune like, unknown
+
+- [ ] Paper
+
+## OPTIONAL
+
+- [ ] Data Cleaning
+    - [ ] errors - find the % error with column, replace with median % error
+    - [ ] Code cleanup in notebooks
+    - [ ] Review code documentation in notebooks
+
+- [ ] Visualisation
+    - [ ] q-q
+    - [ ] p-p plots
+    - [ ] 3D plots
+    - [ ] Compare confirmed exoplanets with Earth values
+
+- [ ] Analysis
+    - [ ] Compare CONFIRMED exoplanets with actual habitable planets, compare values (no data)
+        - [ ] Build model to predict if planet is habitable or not, test on CONFIRMED set - find number habitable
+    - [ ] Compare CONFIRMED with planets in our solar system, compare values (no data)
+        - [ ] Find solar system planets closest to planets in dataset 
