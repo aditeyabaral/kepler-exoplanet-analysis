@@ -7,7 +7,6 @@
     - [ ] Label based
         - [ ] subset of dataset [label == CONFIRMED], plot above graphs with subset
         - [ ] density plot with subset which is confirmed
-    - [ ] Correlation Matrix
     - [ ] [Count of planets discovered and method](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
     - [ ] [Comparisons with Earth](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
  
