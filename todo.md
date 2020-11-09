@@ -14,9 +14,6 @@
 - [ ] Prediction
     - [ ] Neural Network
     - [ ] Plot importance of features
-        - [ ] [Random Forest](https://stackoverflow.com/questions/44101458/random-forest-feature-importance-chart-using-python)
-        - [ ] [Adaboost](https://stackoverflow.com/questions/36665511/scikit-adaboost-feature-importance)
-        - [ ] [Direct library approach](https://www.scikit-yb.org/en/latest/api/model_selection/importances.html)
         - [ ] Neural Network - [this](https://stackoverflow.com/questions/45361559/feature-importance-chart-in-neural-network-using-keras-in-python) or [this](https://stats.stackexchange.com/questions/261008/deep-learning-how-do-i-know-which-variables-are-important)
 
 - [ ] Further Analysis
