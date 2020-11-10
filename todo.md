@@ -12,7 +12,6 @@
  
 - [ ] Prediction
     - [ ] Plot importance of features
-        - [ ] SVM
         - [ ] Neural Network - [this](https://stackoverflow.com/questions/45361559/feature-importance-chart-in-neural-network-using-keras-in-python) or [this](https://stats.stackexchange.com/questions/261008/deep-learning-how-do-i-know-which-variables-are-important)
 
 - [ ] Paper
