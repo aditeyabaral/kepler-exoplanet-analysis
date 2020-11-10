@@ -10,7 +10,7 @@
     - [ ] [Count of planets discovered and method](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
     - [ ] [Comparisons with Earth](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
  
-- [ ] Prediction
+- [ ] Classification
     - [ ] Plot importance of features
         - [ ] Neural Network - [this](https://stackoverflow.com/questions/45361559/feature-importance-chart-in-neural-network-using-keras-in-python) or [this](https://stats.stackexchange.com/questions/261008/deep-learning-how-do-i-know-which-variables-are-important)
 
