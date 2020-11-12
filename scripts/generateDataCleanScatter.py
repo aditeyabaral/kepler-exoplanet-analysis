@@ -1,16 +1,16 @@
 d = {'koi_depth': 59,
-   'koi_impact': 59,
-   'koi_insol': 17,
-   'koi_kepmag': 1,
-   'koi_model_snr': 59,
-   'koi_prad': 59,
-   'koi_score': 1206,
-   'koi_slogg': 59,
-   'koi_srad': 59,
-   'koi_steff': 59,
-   'koi_tce_delivname': 255,
-   'koi_tce_plnt_num': 255,
-   'koi_teq': 59}
+     'koi_impact': 59,
+     'koi_insol': 17,
+     'koi_kepmag': 1,
+     'koi_model_snr': 59,
+     'koi_prad': 59,
+     'koi_score': 1206,
+     'koi_slogg': 59,
+     'koi_srad': 59,
+     'koi_steff': 59,
+     'koi_tce_delivname': 255,
+     'koi_tce_plnt_num': 255,
+     'koi_teq': 59}
 
 columns = list(d.keys())
 
