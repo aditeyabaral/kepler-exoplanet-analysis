@@ -21,11 +21,11 @@ os.mkdir(r"Bar Plots")
 # Produce Scatter Plots
 
 for col1 in columns:
-    if "id" in col1 or "err" in col1: # Skip errors and IDs
+    if "id" in col1 or "err" in col1 or "name" in col1 or "flag" in col1: # Skip errors and IDs
         continue
     print(col1)
     for col2 in columns:
-        if col1 == col2 or (col1, col2) in covered or (col2, col1) in covered or "id" in col2 or "err" in col2: # Skip redundant, errors, IDs
+        if col1 == col2 or (col1, col2) in covered or (col2, col1) in covered or "id" in col2 or "err" in col2 or "name" in col2 or "flag" in col2: # Skip redundant, errors, IDs
             continue
         try:
             correlation = abs(df[col1].corr(df[col2])) # Identify the type of correlation - low, medium, high
@@ -50,7 +50,7 @@ for col1 in columns:
 # Produce histograms
 
 for col in columns:
-    if "id" in col or "err" in col:
+    if "id" in col or "err" in col or "name" in col:
         continue
     try:
         print(col)
@@ -64,7 +64,7 @@ for col in columns:
 
 # Produce Bar Plots
 
-for col in columns:
+'''for col in columns:
     if df[col].dtypes in ["int64", "float64"]:
         continue
     data = dict(df[col].value_counts())
@@ -76,4 +76,4 @@ for col in columns:
     plt.bar(X, y, color="lightblue")
     plt.title(col)
     plt.savefig(rf"Bar Plots/{col}", dpi=200)
-    plt.close("all")
+    plt.close("all")'''
