@@ -1,10 +1,9 @@
 ## MANDATORY
 
 - [ ] Visualisation
-    - [ ] Beautify plots for final paper
-    - [ ] Label based
-        - [ ] subset of dataset [label == CONFIRMED], plot above graphs with subset
-        - [ ] density plot with subset which is confirmed
+    - [ ] Fix some histograms with wrong bin size
+    - [ ] Add pie charts for some categorical variables
+    - [ ] density plot from histograms [LOW PRIORITY, ALMOST OPTIONAL]
     - [ ] [Count of planets discovered and method](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
     - [ ] [Comparisons with Earth](https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html)
  
@@ -21,7 +20,7 @@
     - [ ] q-q
     - [ ] p-p plots
     - [ ] 3D plots
-    - [ ] Compare confirmed exoplanets with Earth values
+    - [ ] [Compare confirmed exoplanets with Earth values](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars)
 
 - [ ] Analysis
     - [ ] Compare CONFIRMED exoplanets with actual habitable planets, compare values (no data)
