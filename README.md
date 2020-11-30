@@ -77,23 +77,11 @@ jupyter notebook
 ## Exoplanet Analysis
 For several decades, planet identification has been a
 task performed by specialized astronomers and domain experts.
-With the advent of computational methods and access to satellite
-data from space missions, this trend has changed. For instance,
-NASA’s Exoplanet Exploration program has provided us
-with vast amounts of data on celestial objects to assist in space
-exploration. One such mission of interest is the Kepler mission.
-Over 3500 transiting exoplanets have been identified since the
-commencement of the mission in 2007. It’s focus lay on exploring
-planets and planetary systems. It has provided us with a catalog
-of discoveries that help in computing planet occurrence rates
-as a function of size, star type, insolation flux and orbital
-period. This information is catalogued in the Cumulative Kepler
-Object of Information table available for public domain use
-on NASA’s exoplanet archive. Four basic models have been
-compared. Namely, Support Vector Machines, Random Forest
-Classifiers, AdaBoost and Deep Neural Networks. The AdaBoost
-classifier was selected as the optimum machine learning model
-and returned an F-1 score of 98% on the dataset.
+With the advent of computational methods and access to satellite data from space missions, this trend has changed. For instance, NASA’s Exoplanet Exploration program has provided us with vast amounts of data on celestial objects to assist in space exploration. One such mission of interest is the Kepler mission.
+
+
+Over 4300 transiting exoplanets have been identified since the
+commencement of the mission in 2007. It’s focus lay on exploring planets and planetary systems. It has provided us with a catalog of discoveries that help in computing planet occurrence rates as a function of size, star type, insolation flux and orbital period. 
 
 ## The Kepler Mission
 [The Kepler Space Telescope](https://www.nasa.gov/mission_pages/kepler/main/index.html) launched in 2009, has been the
@@ -108,7 +96,11 @@ Measurements from the Kepler satellite are available for public domain use. Thes
 ## Predictive Modelling
 This study focuses on a binary classification of Objects of Interest as “FALSE POSITIVE” or “CONFIRMED” exoplanets. NASA uses the label of “FALSE POSITIVE” to indicate the satellite incorrectly tracked an object. We do not consider the observations labelled as “CANDIDATE” since these are yet to be labelled by NASA and hence, are unknown to us. For our analysis, we have used four models, each with its own unique characteristics to tackle the problem at hand from different angles. 
 
-The four models used are Support Vector Machines (SVM), Random Forest, AdaBoost and a Feed-Forward Neural Network.
+The four models used are 
+1. Support Vector Machine
+2. Random Forest
+3. AdaBoost
+4. Feed-Forward Neural Network.
 
 ## Evaluation of Model Performance
 
@@ -126,3 +118,34 @@ Since the dataset is imbalanced, we again use both -
 * A stratified split
 
 This is to ensure that within each fold the number of positive and negative examples are equal. We measure our classifier’s performance across each split and finally take the mean of the performance achieved.
+
+## Model Results
+We obtain two sets of results, when we consider and omit the attributes corresponding to error metrics. We can conclude that the models built with the Error attributes tend to do better than the models built after removing the error attributes. Although all models perform almost equally well, the AdaBoost classifier outperforms the rest.
+
+### With Error Attributes
+
+| Model          | Stratified F-1 Score | Non-Stratified F-1 Score |
+|----------------|----------------------|--------------------------|
+| SVM            | 98.28%               | 98.31%                   |
+| Random Forest  | 97.68%               | 97.61%                   |
+| AdaBoost       | 98.01%               | 98.17%                   |
+| Neural Network | 98.16%               | 98.27%                   |
+
+### Without Error Attributes
+
+| Model          | Stratified F-1 Score | Non-Stratified F-1 Score |
+|----------------|----------------------|--------------------------|
+| SVM            | 97.72%               | 97.66%                   |
+| Random Forest  | 98%                  | 98.13%                   |
+| AdaBoost       | 98.03%               | 98.11%                   |
+| Neural Network | 97.78%               | 97.46%                   |
+
+## Observations and Conclusions
+
+1. We observe that there is significant overlap between the different classes of exoplanets, making it increasingly difficult for scientists to predict their habitability.
+
+2. We also observe that most of the exoplanet characteristics are independent of each other, with very few attributes having significant correlation.
+
+3. A difference in feature rank importance was observed across the different algorithms, showing the differences in the working of each model.
+
+4. Additionally, we see that machine learning algorithms prefer categorical variables for classification as it allows them to form decisions faster and reduce entropy quicker.
