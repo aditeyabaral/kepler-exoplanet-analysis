@@ -4,7 +4,8 @@ Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Iden
 
 This repository contains the source code as well as the visualisations and models created as a part of the Final Project for the Data Analytics course (UE18CS312) at PES University.
 
-The Final Report for the document can be found [here](https://github.com/aditeyabaral/kepler-exoplanet-analysis/blob/master/report/057_Meu_Kepler_Exoplanet_Search_Results-FinalReport.pdf).
+The Final Report for the document can be found [here](https://github.com/aditeyabaral/kepler-exoplanet-analysis/blob/master/report/057_Meu_Kepler_Exoplanet_Search_Results-FinalReport.pdf). <br>
+The Video Presentation can be viewed [here](https://youtu.be/lPUQ2x55jE4).
 
 ## Team Members 
 
