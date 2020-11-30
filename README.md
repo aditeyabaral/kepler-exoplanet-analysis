@@ -4,6 +4,8 @@ Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Iden
 
 This repository contains the source code as well as the visualisations and models created as a part of the Final Project for the Data Analytics course (UE18CS312) at PES University.
 
+The Final Report for the document can be found [here](https://github.com/aditeyabaral/kepler-exoplanet-analysis/blob/master/report/057_Meu_Kepler_Exoplanet_Search_Results-FinalReport.pdf).
+
 ## Team Members 
 
 [Aditeya Baral](https://github.com/aditeyabaral) <br>
@@ -77,18 +79,17 @@ jupyter notebook
 ## Exoplanet Analysis
 For several decades, planet identification has been a
 task performed by specialized astronomers and domain experts.
-With the advent of computational methods and access to satellite data from space missions, this trend has changed. For instance, NASA’s Exoplanet Exploration program has provided us with vast amounts of data on celestial objects to assist in space exploration. One such mission of interest is the Kepler mission.
+With the advent of computational methods and access to satellite data from space missions, this trend has changed. For instance, **NASA’s Exoplanet Exploration Program** has provided us with vast amounts of data on celestial objects to assist in space exploration. One such mission of interest is the Kepler mission.
 
 
-Over 4300 transiting exoplanets have been identified since the
-commencement of the mission in 2007. It’s focus lay on exploring planets and planetary systems. It has provided us with a catalog of discoveries that help in computing planet occurrence rates as a function of size, star type, insolation flux and orbital period. 
+**Over 4300 transiting exoplanets have been identified since the
+commencement of the mission in 2007**. It’s focus lay on exploring planets and planetary systems. It has provided us with a catalog of discoveries that help in computing planet occurrence rates as a function of size, star type, insolation flux and orbital period. 
 
 ## The Kepler Mission
-[The Kepler Space Telescope](https://www.nasa.gov/mission_pages/kepler/main/index.html) launched in 2009, has been the
-most successful telescope to aid the discovery of exoplanets. It has identified several thousand objects of interest, with over 4300 of them confirmed exoplanets. The mission has been designed to survey a portion of the Milky Way galaxy and discovers hundreds of Earth-size and smaller planets in or near the habitable zone. It additionally determines the fraction of the billions of stars in our galaxy that might have their own solar system. 
+**[The Kepler Space Telescope](https://www.nasa.gov/mission_pages/kepler/main/index.html) launched in 2009, has been the
+most successful telescope to aid the discovery of exoplanets**. It has identified several thousand objects of interest, with over 4300 of them confirmed exoplanets. **The mission has been designed to survey a portion of the Milky Way galaxy and discovers hundreds of Earth-size and smaller planets in or near the habitable zone**. It additionally determines the fraction of the billions of stars in our galaxy that might have their own solar system. 
 
-The satellite was officially
-retired in October 2018 because it ran out of fuel. Years later, the statistical data that Kepler produced continues to produce new exoplanet discoveries.
+The satellite was officially retired in October 2018 because it ran out of fuel. Years later, the statistical data that Kepler produced continues to produce new exoplanet discoveries.
 
 ## Dataset
 Measurements from the Kepler satellite are available for public domain use. These records are maintained by CalTech in the [Kepler Cumulative Object of Interest (KCOI)](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative) table. The KCOI table contains 50 features recorded from Kepler data.
@@ -106,11 +107,11 @@ The four models used are
 
 To counter the imbalance of the dataset, we propose different
 evaluation metrics, which take in account the imbalance.
-These include the F1 Score, Cohen Kappa score, Balanced
-Accuracy Score and finally the Confusion Matrix.
+These include the **F1 Score, Cohen Kappa score, Balanced
+Accuracy Score and finally the Confusion Matrix**.
 
 Additionally, to test out our classifier on different sets, we
-use F-Fold cross-validation across our entire dataset to ensure that we are not underfitting our classifier by introducing high bias. 
+use **K-Fold cross-validation across our entire dataset** to ensure that we are not underfitting our classifier by introducing high bias. 
 
 Since the dataset is imbalanced, we again use both -
 
