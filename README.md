@@ -56,9 +56,12 @@ kepler-exoplanet-analysis
 ├── plots
     └── All possible plots based on preprocessing, visualisation and model training
 
+├── presentation
+    └── Presentation and Video
+
 ├── report
     ├── Final Report
-    └── Presentation
+    └── Plagiarism Check
 
 └── scripts
     ├── getPlotsMatplotLib.py
