@@ -4,8 +4,8 @@ Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Iden
 
 ## Team Members 
 
-[Aditeya Baral](https://github.com/aditeyabaral)
-[Ameya Rajendra Bhamare](https://github.com/ameyabhamare)
+[Aditeya Baral](https://github.com/aditeyabaral) <br>
+[Ameya Rajendra Bhamare](https://github.com/ameyabhamare) <br>
 [Saarthak Agarwal](https://github.com/saarthak-agarwal)
 
 ## Exoplanet Analysis
