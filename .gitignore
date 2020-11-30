@@ -1,6 +1,5 @@
 .ipynb_checkpoints
 .vscode
-src/Decision*
 notebook/*.png
 notebook/*.jpg
 notebook/*.jpeg
