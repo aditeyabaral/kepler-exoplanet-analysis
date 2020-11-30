@@ -6,7 +6,7 @@ Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Iden
 
 [Aditeya Baral](https://github.com/aditeyabaral)
 [Ameya Rajendra Bhamare](https://github.com/ameyabhamare)
-[Saarthak Agarwal(https://github.com/saarthak-agarwal)
+[Saarthak Agarwal](https://github.com/saarthak-agarwal)
 
 ## Exoplanet Analysis
 For several decades, planet identification has been a
@@ -31,7 +31,8 @@ and returned an F-1 score of 98% on the dataset.
  
 ## Directory Structure
 
-root
+```
+kepler-exoplanet-analysis
 ├── data
     ├── [CLEANED]kepler-data.csv
     └── kepler-data.csv
@@ -62,6 +63,8 @@ root
 └── scripts
     ├── getPlotsMatplotLib.py
     └── getPlotsPlotly.py
+
+```
 
 ## How to run the code?
 
